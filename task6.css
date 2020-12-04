@@ -1,0 +1,102 @@
+ 
+body{
+    margin:0;
+    height: 800px;
+}
+ 
+ /* start section with text and img  */
+
+.text-img{
+    background-color: #EEE;
+    height: 300px;
+    margin-top: 40px;
+}
+.text-img .text{
+    float: left;
+    width: 47%;
+
+}
+.text-img .text h2{
+    margin: 0;
+    color: red;
+    padding-top: 75px;
+    padding-left: 220px;
+}
+.text-img .text p{
+    color: #6e6565;
+    padding-left: 220px;
+    margin-top: 12px;
+}
+.text-img .img{
+    float: right;
+    width: 50%;
+}
+.text-img .img img{
+    width: 60%;
+    height: 300px;
+   
+}
+
+.text-img .child .image1,
+.text-img .child .image2,
+.text-img .child .image3{
+    width: 85px;
+    height: 65px;
+    position: relative;
+    bottom: 85px;
+    border: 3px solid #d1cfcf;
+    margin: 0 7px;
+}
+
+ /* end section with text and img  */
+
+ /* start section updates  */
+
+.updates{
+    margin-top: 80px;
+}
+.updates h1{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.updates .content{
+    margin-left: 20%;
+}
+.updates .content img{
+    height: 115px;
+    width: 100%;
+    border-radius: 3px;
+}
+.updates .content .img-1,
+.updates .content .img-2,
+.updates .content .img-3{
+    float: left;
+    width: 20%;
+    background-color: #EEE;
+    padding:20px;
+    margin-right: 20px;
+}
+.updates .content .pd{
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+} 
+.updates .information{margin-top: 15px;}
+.updates .information p{
+    display: inline-block;
+    font-size: 10px;
+    color: #6e6565;
+} 
+.updates .information img{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.updates .information i{
+    margin-left: 23px;
+    font-size: 10px;
+}
+ /* end section updates  */
